@@ -4,7 +4,7 @@
 
 ### グローバルステートの管理のための手書きのコードを削減する
 
-[Sample]()
+[Sample](https://gilded-pegasus-7c1f88.netlify.app/reduct_global_store)
 
 わかりやすい例として、以下を挙げる。
 
@@ -20,7 +20,7 @@
 
 ### サーバーへのリクエスト数の削減
 
-[Sample]()
+[Sample](https://gilded-pegasus-7c1f88.netlify.app/reduct_network)
 
 [参考記事](https://blog.microcms.io/optimize-cache-with-react-query/#h7e28ab6b03)
 
@@ -30,7 +30,7 @@
 
 ### ブラウザバックした際のスクロール位置保持
 
-[Sample]()
+[Sample](https://gilded-pegasus-7c1f88.netlify.app/scroll_restoration)
 
 [MDN -scrollRestoration](https://developer.mozilla.org/ja/docs/Web/API/History/scrollRestoration)
 
@@ -44,7 +44,7 @@
 
 ## 他サンプル
 
-[ReactQueryを用いた楽観的更新]()
+[ReactQueryを用いた楽観的更新](https://gilded-pegasus-7c1f88.netlify.app/optimistic_update)
 
 ## React Queryに関するアレコレ
 
@@ -111,7 +111,7 @@ https://react-query.tanstack.com/reference/useQuery
 
 ### useSWRInfiniteの挙動が不可解
 
-[Sample]()
+[Sample](https://gilded-pegasus-7c1f88.netlify.app/use_swr_infinite)
 
 サンプルで確認できるが、0ページ目取得後「more」ボタンにより次のデータを取得しようとしたら、何故か0ページ目再取得してから1ページ目を取得しようとする。
 

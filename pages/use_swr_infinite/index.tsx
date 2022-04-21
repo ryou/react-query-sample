@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { NextPage } from 'next'
 import { UserListComponent } from '../../components/UserListComponent'
 import { userRepository } from '../../factory/singleton'
@@ -75,11 +74,6 @@ const UseSWRInfinitePage: NextPage = () => {
 
   return (
     <div>
-      <div>
-        <Link href={`/users/create`}>
-          <a>新規作成</a>
-        </Link>
-      </div>
       <div>
         {isLoadingInitialData ? (
           <div>loading...</div>
